@@ -1,13 +1,15 @@
 {
-  "name": "MovieDatabase",
+  "name": "movie-database",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
-    "ios": "react-native run-ios",
+    "ios": "react-native run-ios --simulator='iPhone 13'",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "tsc": "tsc --project ./",
+    "check:all": "tsc --project ./; eslint .; jest"
   },
   "dependencies": {
     "react": "18.2.0",
