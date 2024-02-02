@@ -9,24 +9,7 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-  searchButton: {
-    backgroundColor: 'blue',
-    padding: 10,
-    width: '50%',
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginBottom: 20,
-  },
-  favouritesButton: {
-    backgroundColor: 'blue',
-    padding: 10,
-    width: '50%',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  buttonText: {
-    color: 'white',
-    fontSize: 16,
-    fontWeight: 'bold',
+  space: {
+    height: 50,
   },
 });

@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly Search screen 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <BVLinearGradient
+    colors={
+      [
+        4283866105,
+        4289848060,
+      ]
+    }
+    endPoint={
+      {
+        "x": 0.5,
+        "y": 1,
+      }
+    }
+    locations={null}
+    startPoint={
+      {
+        "x": 0.5,
+        "y": 0,
+      }
+    }
+    style={
+      {
+        "flex": 1,
+        "paddingHorizontal": 20,
+        "paddingTop": 30,
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "backgroundColor": "white",
+            "overflow": "hidden",
+            "paddingTop": 16,
+          },
+          {
+            "borderRadius": 7,
+            "marginBottom": 20,
+          },
+          {
+            "height": 64,
+          },
+        ]
+      }
+    >
+      <Text
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessible={true}
+        allowFontScaling={false}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "#569BF9",
+              "fontSize": 20,
+            },
+            {
+              "bottom": 24,
+              "color": "rgba(163, 163, 163, 1)",
+              "left": 16,
+              "position": "absolute",
+            },
+            {
+              "fontFamily": "FontAwesome",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
+        }
+      >
+        
+      </Text>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "#f0f0f0",
+              "position": "absolute",
+              "top": 8,
+              "width": 1,
+            },
+            {
+              "height": 48,
+              "left": 48,
+            },
+          ]
+        }
+      />
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "height": 48,
+            "left": 56,
+            "position": "absolute",
+            "top": 24,
+          }
+        }
+      >
+        <Text
+          collapsable={false}
+          style={
+            {
+              "color": "rgba(105, 105, 105, 1)",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Type here to find movies!
+        </Text>
+      </View>
+      <TextInput
+        animationDuration={300}
+        height={48}
+        iconClass={[Function]}
+        iconColor="#569BF9"
+        iconName="file-movie-o"
+        iconSize={20}
+        iconWidth={40}
+        inputPadding={16}
+        label="Type here to find movies!"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        passiveIconColor="#a3a3a3"
+        style={
+          [
+            {
+              "color": "black",
+              "flex": 1,
+              "fontSize": 18,
+              "padding": 7,
+              "paddingLeft": 0,
+            },
+            {
+              "color": "#569BF9",
+              "marginLeft": 56,
+            },
+            undefined,
+          ]
+        }
+        underlineColorAndroid="transparent"
+      />
+    </View>
+    <RCTScrollView
+      ListFooterComponent={[Function]}
+      data={[]}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onEndReached={[Function]}
+      onEndReachedThreshold={0.7}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={0.0001}
+      stickyHeaderIndices={[]}
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+        />
+      </View>
+    </RCTScrollView>
+  </BVLinearGradient>
+</View>
+`;

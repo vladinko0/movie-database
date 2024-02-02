@@ -1,6 +1,8 @@
 export interface Theme {
-  homeGradient1: string;
-  homeGradient2: string;
+  cornflowerBlue: string;
+  frenchPass: string;
+  shineGray: string;
+  white: string;
 }
 
 export type ThemeContextType = {

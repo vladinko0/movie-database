@@ -6,5 +6,7 @@ export const styles = StyleSheet.create({
   },
   gradient: {
     flex: 1,
+    paddingTop: 20,
+    paddingHorizontal: 20,
   },
 });

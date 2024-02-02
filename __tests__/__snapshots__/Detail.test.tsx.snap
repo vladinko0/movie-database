@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly Details screen 1`] = `
+<RCTScrollView
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <BVLinearGradient
+      colors={
+        [
+          4283866105,
+          4289848060,
+        ]
+      }
+      endPoint={
+        {
+          "x": 0.5,
+          "y": 1,
+        }
+      }
+      locations={null}
+      startPoint={
+        {
+          "x": 0.5,
+          "y": 0,
+        }
+      }
+      style={
+        {
+          "flex": 1,
+          "minHeight": 800,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <ActivityIndicator />
+      </View>
+    </BVLinearGradient>
+  </View>
+</RCTScrollView>
+`;

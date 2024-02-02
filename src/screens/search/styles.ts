@@ -6,5 +6,11 @@ export const styles = StyleSheet.create({
   },
   gradient: {
     flex: 1,
+    paddingTop: 30,
+    paddingHorizontal: 20,
+  },
+  fumi: {
+    borderRadius: 7,
+    marginBottom: 20,
   },
 });

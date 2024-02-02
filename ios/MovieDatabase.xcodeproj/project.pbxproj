@@ -43,6 +43,7 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-MovieDatabase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovieDatabase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MovieDatabase/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-MovieDatabase-MovieDatabaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieDatabase-MovieDatabaseTests.release.xcconfig"; path = "Target Support Files/Pods-MovieDatabase-MovieDatabaseTests/Pods-MovieDatabase-MovieDatabaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4D29A352B6C062E00513D6E /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -116,6 +117,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				A4D29A342B6C05BF00513D6E /* Fonts */,
 				13B07FAE1A68108700A75B9A /* MovieDatabase */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* MovieDatabaseTests */,
@@ -135,6 +137,14 @@
 				00E356EE1AD99517003FC87E /* MovieDatabaseTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A4D29A342B6C05BF00513D6E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A4D29A352B6C062E00513D6E /* FontAwesome.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
